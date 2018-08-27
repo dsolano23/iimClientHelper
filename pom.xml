@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.luda.iimClientHelper2</groupId>
+    <artifactId>iimClientHelper2</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>iimClientHelper2</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+    <maven.compile.encoding>UTF-8</maven.compile.encoding>
+
+    <java.version>1.8</java.version>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api-->
+
+        <slf4jVersion>1.7.25</slf4jVersion>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.2.0 - Date of the version 5.2.0 - Apr 29, 2018 -->
+        <junit.version>5.2.0</junit.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4jVersion}</version>
+        </dependency>
+
+    </dependencies>
+</project>
